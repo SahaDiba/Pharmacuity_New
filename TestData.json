@@ -1,0 +1,165 @@
+{
+    "LoginData": {
+        "url": "http://qa.pharmacuity.healthcare/EH/#/",
+        "title": "PharmAcuity",
+        "rocheuser":"testrocheuser",
+        "password" : "ComplexPassword+1",
+    "Users": [
+        {
+            "username": "12345",
+            "passwordField": "12345"
+        },
+        {
+            "username": "Sahad1",
+            "passwordField": " "
+        },
+        {
+            "username": " ",
+            "passwordField": "SouthCarolina"
+        },
+        {
+            "username": "Sahad1",
+            "passwordField": "Password1"
+        },
+        {
+            
+
+            "username": "Sahad1",
+            "passwordField": "2SouthCarolina"
+           
+        }
+        ]
+    },
+
+    "ForgotPasswordData":{
+        
+        "emailaddress" : "diba.saha@tcg-digital.com",
+        
+        "messages":[
+        {
+            "promptmsg": "Please enter the email address associated with your PharmAcuity account."
+        },
+        {
+            "promptmsg" : "Please check your email for a link to reset your password."
+        }
+    ],
+
+    "Passwords":[
+        {
+            "newpassword" : "pass",
+            "confirmpassword" : "pass"
+        },
+
+        {
+            "newpassword" : "password",
+            "confirmpassword" : "password"
+        },
+      
+        {
+            "newpassword" : "12345678",
+            "confirmpassword" : "12345678"
+        }, 
+        {
+            "newpassword" : "Password1",
+            "confirmpassword" : "Password1"
+        }
+
+
+    ],
+    "errormessages":[
+        {
+            "errormsg": "Please use at least 8 characters."
+        },
+        {
+            "errormsg" : "Please use at least 1 letter and 1 number."
+        }
+    ]
+        
+    },
+
+    "FilterOptions":[
+        "Therapeutic Area",
+        "Clinical Indication",
+        "Subindication",
+        "Phase",
+        "Enrollment Status",
+        "Driver Mutation",
+        "Protocol",
+        "Cancer Immunotherapy",
+        "Therapy",
+       "Disease Stage",
+        "Patients Randomized",
+        "Line of Therapy",
+        "Country",
+        "Adult or Pediatric",
+        "Site Count"
+        
+],
+"TherapeuticAreaOptions":[
+    "CARDIOVASCULAR",
+    "DERMATOLOGY",
+    "ENDOCRINE AND METABOLIC",
+    "GASTROINTESTINAL",
+    "HEMATOLOGY",
+    "INFECTIOUS DISEASES",
+    "MUSCLE AND SKELETAL",
+    "NEUROLOGY",
+    "ONCOLOGY",
+    "OPHTHALMOLOGY",
+  "RARE DISEASES",
+    "RESPIRATORY"
+    
+    
+],
+"ClinicalIndicationOptions":[
+    "ACUTE MYELOID LEUKEMIA",
+    "ALZHEIMER'S DISEASE",
+    "AMYOTROPHIC LATERAL SCLEROSIS",
+    "ASTHMA",
+    "ATOPIC DERMATITIS",
+    "BLADDER CANCER",
+    "BREAST CANCER",
+    "COLORECTAL CANCER",
+    "CROHN'S DISEASE",
+    "CYSTIC FIBROSIS",
+    "DIABETIC MACULAR EDEMA",
+    "DRY AMD",
+    "ESOPHAGEAL CANCER",
+   "GASTRIC CANCER",
+    "GEOGRAPHIC ATROPHY",
+    "GIANT CELL ARTERITIS",
+    "GLIOBLASTOMA",
+   "HAEMOPHILIA A",
+    "HEAD AND NECK CANCER",
+    "HEPATITIS B",
+    "HEPATITIS C",
+    "INFLUENZA",
+    "LUPUS NEPHRITIS",
+    "MELANOMA",
+    "MULTIPLE MYELOMA",
+    "MULTIPLE SCLEROSIS",
+    "NHL",
+    "NSCLC",
+    "OVARIAN CANCER",
+    "PANCREATIC CANCER",
+   "PEMPHIGUS VULGARIS",
+   "PROSTATE CANCER",
+   "RARE DISEASES",
+   "RENAL CANCER",
+   "RHEUMATOID ARTHRITIS",
+   "SCLC",
+   "SKIN CANCER",
+   "SYSTEMIC SCLEROSIS",
+   "ULCERATIVE COLITIS",
+   "WET AMD"
+    
+],
+
+"ApplicationList":[
+    "ABOUT PHARMACUI",
+    "METRICS AND BENCHMARKING",
+    "SITE, PI, & RECRUITMENT OPTIMIZATION",
+    "INNOVATIVE PROTOCOL DESIGN",
+    "TRIAL FORECASTING"
+]
+}

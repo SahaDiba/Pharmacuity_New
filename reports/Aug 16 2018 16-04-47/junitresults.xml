@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="5" time="54920">
+ <testsuite name="Page load" timestamp="2018-08-16T16:05:58" hostname="localhost" time="0" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Login Page" timestamp="2018-08-16T16:05:58" hostname="localhost" time="54.92" errors="0" tests="5" skipped="0" disabled="0" failures="1">
+  <testcase classname="Login Page" name="should display incorrect userid error message when entering incorrect userid" time="9.768" />
+  <testcase classname="Login Page" name="should display required field error message and not go to main menu when password entering as blank" time="9.557" />
+  <testcase classname="Login Page" name="should display required field error message and not go to main menu when username entering as blank" time="9.679" />
+  <testcase classname="Login Page" name="should display incorrect password error message when entering incorrect password" time="9.694">
+   <failure type="toBe" message="Error message is not displayed for incorrect password"><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\Login\LoginPage.spec.js:46:39)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Login Page" name="should go to main menu when entering correct password" time="16.22" />
+ </testsuite>
+</testsuites>

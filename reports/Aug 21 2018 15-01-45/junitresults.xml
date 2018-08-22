@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="236" tests="6" time="2350974">
+ <testsuite name="Page load" timestamp="2018-08-21T15:01:59" hostname="localhost" time="0" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="M&amp;B FPI-LPI Page" timestamp="2018-08-21T15:01:59" hostname="localhost" time="2350.974" errors="0" tests="6" skipped="0" disabled="0" failures="236">
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Studies Box Plots value of Sponsor with the database value for the given filter options" time="555.459">
+   <failure type="toBe" message="For the country ARGENTINA studies are not matched with the database: Actual-9 =/= Expected-8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRALIA studies are not matched with the database: Actual-27 =/= Expected-23"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRIA studies are not matched with the database: Actual-13 =/= Expected-9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BELGIUM studies are not matched with the database: Actual-25 =/= Expected-22"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BOSNIA AND H... studies are not matched with the database: Actual-4 =/= Expected-2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BRAZIL studies are not matched with the database: Actual-13 =/= Expected-10"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BULGARIA studies are not matched with the database: Actual-7 =/= Expected-5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CANADA studies are not matched with the database: Actual-31 =/= Expected-29"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CHILE studies are not matched with the database: Actual-8 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CHINA studies are not matched with the database: Actual-8 =/= Expected-6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country COLOMBIA studies are not matched with the database: Actual-2 =/= Expected-5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country COSTA RICA studies are not matched with the database: Actual-1 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:165:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CROATIA studies are not matched with the database: Actual-2 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CZECH REPUBL... studies are not matched with the database: Actual-14 =/= Expected-15"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country DENMARK studies are not matched with the database: Actual-5 =/= Expected-8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country EL SALVADOR studies are not matched with the database: Actual-1 =/= Expected-2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FINLAND studies are not matched with the database: Actual-7 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FRANCE studies are not matched with the database: Actual-50 =/= Expected-47"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GERMANY studies are not matched with the database: Actual-41 =/= Expected-40"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GREECE studies are not matched with the database: Actual-8 =/= Expected-3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GUATEMALA studies are not matched with the database: Actual-3 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HONG KONG studies are not matched with the database: Actual-7 =/= Expected-6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HUNGARY studies are not matched with the database: Actual-15 =/= Expected-13"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ISRAEL studies are not matched with the database: Actual-10 =/= Expected-9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ITALY studies are not matched with the database: Actual-46 =/= Expected-40"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country JAPAN studies are not matched with the database: Actual-11 =/= Expected-3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country LATVIA studies are not matched with the database: Actual-6 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country LITHUANIA studies are not matched with the database: Actual-2 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:165:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MACEDONIA [F... studies are not matched with the database: Actual-1 =/= Expected-2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MALAYSIA studies are not matched with the database: Actual-4 =/= Expected-5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MEXICO studies are not matched with the database: Actual-12 =/= Expected-9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NETHERLANDS studies are not matched with the database: Actual-22 =/= Expected-18"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NEW ZEALAND studies are not matched with the database: Actual-4 =/= Expected-6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NORWAY studies are not matched with the database: Actual-7 =/= Expected-3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PANAMA studies are not matched with the database: Actual-4 =/= Expected-5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PERU studies are not matched with the database: Actual-6 =/= Expected-7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PHILIPPINES studies are not matched with the database: Actual-1 =/= Expected-3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country POLAND studies are not matched with the database: Actual-25 =/= Expected-19"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PORTUGAL studies are not matched with the database: Actual-10 =/= Expected-8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PUERTO RICO studies are not matched with the database: Actual-NA =/= Expected-1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country REUNION studies are not matched with the database: Actual-4 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:165:49)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ROMANIA studies are not matched with the database: Actual-10 =/= Expected-8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country RUSSIA studies are not matched with the database: Actual-21 =/= Expected-15"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SERBIA studies are not matched with the database: Actual-7 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SINGAPORE studies are not matched with the database: Actual-9 =/= Expected-5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVAKIA studies are not matched with the database: Actual-3 =/= Expected-4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVENIA studies are not matched with the database: Actual-3 =/= Expected-1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SOUTH AFRICA studies are not matched with the database: Actual-1 =/= Expected-3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SOUTH KOREA studies are not matched with the database: Actual-26 =/= Expected-22"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SPAIN studies are not matched with the database: Actual-47 =/= Expected-45"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWITZERLAND studies are not matched with the database: Actual-15 =/= Expected-10"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TAIWAN studies are not matched with the database: Actual-16 =/= Expected-12"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country THAILAND studies are not matched with the database: Actual-12 =/= Expected-10"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TURKEY studies are not matched with the database: Actual-12 =/= Expected-10"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UKRAINE studies are not matched with the database: Actual-8 =/= Expected-3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED KINGD... studies are not matched with the database: Actual-39 =/= Expected-32"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED STATE... studies are not matched with the database: Actual-76 =/= Expected-68"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:172:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Average Box Plots value of Sponsor with the database value for the given filter options" time="345.99">
+   <failure type="toBe" message="For the country ARGENTINA averages are not matched with the database: Actual-11.3 =/= Expected-9.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRALIA averages are not matched with the database: Actual-32.4 =/= Expected-32.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRIA averages are not matched with the database: Actual-21.6 =/= Expected-39.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BELGIUM averages are not matched with the database: Actual-25.2 =/= Expected-26.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BOSNIA AND H... averages are not matched with the database: Actual-3.5 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BRAZIL averages are not matched with the database: Actual-22.6 =/= Expected-25.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BULGARIA averages are not matched with the database: Actual-28.1 =/= Expected-40.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CANADA averages are not matched with the database: Actual-27.2 =/= Expected-27.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CHILE averages are not matched with the database: Actual-16.4 =/= Expected-5.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CHINA averages are not matched with the database: Actual-21.5 =/= Expected-19.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country COLOMBIA averages are not matched with the database: Actual-4.1 =/= Expected-8.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country COSTA RICA averages are not matched with the database: Actual-19.9 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CZECH REPUBL... averages are not matched with the database: Actual-22.4 =/= Expected-22.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country DENMARK averages are not matched with the database: Actual-20.6 =/= Expected-13.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ESTONIA averages are not matched with the database: Actual-2.6 =/= Expected-5.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FINLAND averages are not matched with the database: Actual-9.8 =/= Expected-6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FRANCE averages are not matched with the database: Actual-25.4 =/= Expected-26.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GEORGIA averages are not matched with the database: Actual-6.4 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GERMANY averages are not matched with the database: Actual-19.4 =/= Expected-17.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GREECE averages are not matched with the database: Actual-20.3 =/= Expected-23.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GUATEMALA averages are not matched with the database: Actual-3.2 =/= Expected-1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HONG KONG averages are not matched with the database: Actual-3.3 =/= Expected-6.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HUNGARY averages are not matched with the database: Actual-20.8 =/= Expected-19"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country IRELAND averages are not matched with the database: Actual-27.1 =/= Expected-4.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ISRAEL averages are not matched with the database: Actual-19.9 =/= Expected-20.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ITALY averages are not matched with the database: Actual-32.0 =/= Expected-35.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country JAPAN averages are not matched with the database: Actual-30.2 =/= Expected-22.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country LATVIA averages are not matched with the database: Actual-16.2 =/= Expected-19.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country LITHUANIA averages are not matched with the database: Actual-12.1 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MALAYSIA averages are not matched with the database: Actual-9.0 =/= Expected-6.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MEXICO averages are not matched with the database: Actual-17.0 =/= Expected-17.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NETHERLANDS averages are not matched with the database: Actual-29.5 =/= Expected-36.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NEW ZEALAND averages are not matched with the database: Actual-11.9 =/= Expected-9.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NORWAY averages are not matched with the database: Actual-13.8 =/= Expected-18.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PANAMA averages are not matched with the database: Actual-2.1 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PERU averages are not matched with the database: Actual-20.0 =/= Expected-26"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country POLAND averages are not matched with the database: Actual-18.6 =/= Expected-18.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PORTUGAL averages are not matched with the database: Actual-25.9 =/= Expected-31.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country REUNION averages are not matched with the database: Actual-7.9 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ROMANIA averages are not matched with the database: Actual-21.1 =/= Expected-19.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country RUSSIA averages are not matched with the database: Actual-25.0 =/= Expected-26.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SERBIA averages are not matched with the database: Actual-11.8 =/= Expected-4.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SINGAPORE averages are not matched with the database: Actual-16.0 =/= Expected-15.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVAKIA averages are not matched with the database: Actual-19.6 =/= Expected-9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVENIA averages are not matched with the database: Actual-3.9 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:292:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SOUTH KOREA averages are not matched with the database: Actual-17.8 =/= Expected-20.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SPAIN averages are not matched with the database: Actual-25.2 =/= Expected-25.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWEDEN averages are not matched with the database: Actual-19.3 =/= Expected-36.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWITZERLAND averages are not matched with the database: Actual-13.0 =/= Expected-11.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TAIWAN averages are not matched with the database: Actual-20.6 =/= Expected-25.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country THAILAND averages are not matched with the database: Actual-17.9 =/= Expected-23.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TURKEY averages are not matched with the database: Actual-21.7 =/= Expected-28.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UKRAINE averages are not matched with the database: Actual-19.6 =/= Expected-17.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED KINGD... averages are not matched with the database: Actual-18.1 =/= Expected-16.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Median Box Plots value of Sponsor with the database value for the given filter options" time="344.694">
+   <failure type="toBe" message="For the country ARGENTINA medians are not matched with the database: Actual-4.1 =/= Expected-3.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED STATE... averages are not matched with the database: Actual-46.1 =/= Expected-50.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:302:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRALIA medians are not matched with the database: Actual-29.0 =/= Expected-28.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRIA medians are not matched with the database: Actual-11.7 =/= Expected-29.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BELGIUM medians are not matched with the database: Actual-27.1 =/= Expected-27.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BOSNIA AND H... medians are not matched with the database: Actual-0.1 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BRAZIL medians are not matched with the database: Actual-24.9 =/= Expected-34.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BULGARIA medians are not matched with the database: Actual-9.3 =/= Expected-41.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CANADA medians are not matched with the database: Actual-20.3 =/= Expected-19.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CHILE medians are not matched with the database: Actual-14.4 =/= Expected-6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CHINA medians are not matched with the database: Actual-23.4 =/= Expected-16.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country COLOMBIA medians are not matched with the database: Actual-4.1 =/= Expected-8.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country COSTA RICA medians are not matched with the database: Actual-19.9 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CZECH REPUBL... medians are not matched with the database: Actual-19.6 =/= Expected-17.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country DENMARK medians are not matched with the database: Actual-18.7 =/= Expected-13.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ESTONIA medians are not matched with the database: Actual-2.6 =/= Expected-5.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FINLAND medians are not matched with the database: Actual-2.4 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FRANCE medians are not matched with the database: Actual-22.8 =/= Expected-24"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GEORGIA medians are not matched with the database: Actual-6.4 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GERMANY medians are not matched with the database: Actual-15.0 =/= Expected-11.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GREECE medians are not matched with the database: Actual-8.9 =/= Expected-23.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GUATEMALA medians are not matched with the database: Actual-3.0 =/= Expected-1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HONG KONG medians are not matched with the database: Actual-1.4 =/= Expected-7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HUNGARY medians are not matched with the database: Actual-15.1 =/= Expected-12.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country IRELAND medians are not matched with the database: Actual-7.3 =/= Expected-4.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ISRAEL medians are not matched with the database: Actual-19.0 =/= Expected-22"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ITALY medians are not matched with the database: Actual-23.7 =/= Expected-24.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country JAPAN medians are not matched with the database: Actual-24.1 =/= Expected-22.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country LATVIA medians are not matched with the database: Actual-20.3 =/= Expected-22.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country LITHUANIA medians are not matched with the database: Actual-12.1 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MALAYSIA medians are not matched with the database: Actual-8.4 =/= Expected-0"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country MEXICO medians are not matched with the database: Actual-15.1 =/= Expected-14.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NETHERLANDS medians are not matched with the database: Actual-17.0 =/= Expected-18.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NEW ZEALAND medians are not matched with the database: Actual-13.7 =/= Expected-8.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NORWAY medians are not matched with the database: Actual-11.3 =/= Expected-22.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PERU medians are not matched with the database: Actual-19.4 =/= Expected-30.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country PORTUGAL medians are not matched with the database: Actual-25.9 =/= Expected-34.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country REUNION medians are not matched with the database: Actual-4.4 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ROMANIA medians are not matched with the database: Actual-15.6 =/= Expected-18.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country RUSSIA medians are not matched with the database: Actual-24.1 =/= Expected-25.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SERBIA medians are not matched with the database: Actual-7.7 =/= Expected-4.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVAKIA medians are not matched with the database: Actual-22.4 =/= Expected-9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVENIA medians are not matched with the database: Actual-4.4 =/= Expected-null"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:421:67)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SOUTH KOREA medians are not matched with the database: Actual-15.8 =/= Expected-19.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SPAIN medians are not matched with the database: Actual-23.0 =/= Expected-25"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWEDEN medians are not matched with the database: Actual-5.1 =/= Expected-44.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWITZERLAND medians are not matched with the database: Actual-11.1 =/= Expected-6.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TAIWAN medians are not matched with the database: Actual-20.0 =/= Expected-20.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country THAILAND medians are not matched with the database: Actual-13.9 =/= Expected-16.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TURKEY medians are not matched with the database: Actual-19.8 =/= Expected-21.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UKRAINE medians are not matched with the database: Actual-16.4 =/= Expected-18.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED KINGD... medians are not matched with the database: Actual-12.9 =/= Expected-14"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Studies Box Plots value of Competition with the database value for the given filter options" time="446.627">
+   <failure type="toBe" message="For the country UNITED STATE... medians are not matched with the database: Actual-37.4 =/= Expected-43.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:428:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRALIA studies are not matched with the database: Actual-98 =/= Expected-104"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRIA studies are not matched with the database: Actual-40 =/= Expected-42"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BELGIUM studies are not matched with the database: Actual-94 =/= Expected-98"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BULGARIA studies are not matched with the database: Actual-16 =/= Expected-17"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CANADA studies are not matched with the database: Actual-115 =/= Expected-118"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CROATIA studies are not matched with the database: Actual-6 =/= Expected-7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CZECH REPUBL... studies are not matched with the database: Actual-50 =/= Expected-52"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country DENMARK studies are not matched with the database: Actual-28 =/= Expected-29"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FRANCE studies are not matched with the database: Actual-143 =/= Expected-147"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GERMANY studies are not matched with the database: Actual-123 =/= Expected-124"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HONG KONG studies are not matched with the database: Actual-26 =/= Expected-27"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HUNGARY studies are not matched with the database: Actual-52 =/= Expected-54"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ISRAEL studies are not matched with the database: Actual-48 =/= Expected-50"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ITALY studies are not matched with the database: Actual-127 =/= Expected-132"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country JAPAN studies are not matched with the database: Actual-74 =/= Expected-75"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NETHERLANDS studies are not matched with the database: Actual-63 =/= Expected-64"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NEW ZEALAND studies are not matched with the database: Actual-18 =/= Expected-20"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country POLAND studies are not matched with the database: Actual-72 =/= Expected-74"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country RUSSIA studies are not matched with the database: Actual-69 =/= Expected-70"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SINGAPORE studies are not matched with the database: Actual-22 =/= Expected-24"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVAKIA studies are not matched with the database: Actual-20 =/= Expected-21"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SOUTH KOREA studies are not matched with the database: Actual-99 =/= Expected-103"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SPAIN studies are not matched with the database: Actual-152 =/= Expected-156"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWEDEN studies are not matched with the database: Actual-42 =/= Expected-43"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TAIWAN studies are not matched with the database: Actual-60 =/= Expected-62"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UKRAINE studies are not matched with the database: Actual-31 =/= Expected-32"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED STATE... studies are not matched with the database: Actual-297 =/= Expected-301"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:568:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Average Box Plots value of Competition with the database value for the given filter options" time="329.476">
+   <failure type="toBe" message="For the country AUSTRALIA averages are not matched with the database: Actual-26.3 =/= Expected-26"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country AUSTRIA averages are not matched with the database: Actual-23.8 =/= Expected-22.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BELGIUM averages are not matched with the database: Actual-21.6 =/= Expected-21.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BULGARIA averages are not matched with the database: Actual-20.7 =/= Expected-20.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CANADA averages are not matched with the database: Actual-26.4 =/= Expected-26"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CROATIA averages are not matched with the database: Actual-6.2 =/= Expected-5.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CZECH REPUBL... averages are not matched with the database: Actual-24.7 =/= Expected-24.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country DENMARK averages are not matched with the database: Actual-30.8 =/= Expected-29.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country FRANCE averages are not matched with the database: Actual-24.3 =/= Expected-24.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GERMANY averages are not matched with the database: Actual-22.9 =/= Expected-22.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HONG KONG averages are not matched with the database: Actual-21.1 =/= Expected-20.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HUNGARY averages are not matched with the database: Actual-27.6 =/= Expected-27"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ISRAEL averages are not matched with the database: Actual-28.8 =/= Expected-28"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ITALY averages are not matched with the database: Actual-25.0 =/= Expected-24.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country JAPAN averages are not matched with the database: Actual-34.8 =/= Expected-35.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NETHERLANDS averages are not matched with the database: Actual-20.0 =/= Expected-19.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NEW ZEALAND averages are not matched with the database: Actual-17.8 =/= Expected-16.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country POLAND averages are not matched with the database: Actual-28.5 =/= Expected-28.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country RUSSIA averages are not matched with the database: Actual-28.7 =/= Expected-28.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SINGAPORE averages are not matched with the database: Actual-17.6 =/= Expected-17"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVAKIA averages are not matched with the database: Actual-22.3 =/= Expected-21.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SPAIN averages are not matched with the database: Actual-27.9 =/= Expected-27.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SWEDEN averages are not matched with the database: Actual-19.6 =/= Expected-19.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country TAIWAN averages are not matched with the database: Actual-19.8 =/= Expected-19.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UKRAINE averages are not matched with the database: Actual-29.2 =/= Expected-28.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED KINGD... averages are not matched with the database: Actual-23.5 =/= Expected-23.3"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:695:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Median Box Plots value of Competition with the database value for the given filter options" time="328.721">
+   <failure type="toBe" message="For the country AUSTRIA medians are not matched with the database: Actual-21.9 =/= Expected-20.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BELGIUM medians are not matched with the database: Actual-19.1 =/= Expected-18.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country BULGARIA medians are not matched with the database: Actual-13.3 =/= Expected-10.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CANADA medians are not matched with the database: Actual-20.3 =/= Expected-20.2"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CROATIA medians are not matched with the database: Actual-3.0 =/= Expected-1.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country CZECH REPUBL... medians are not matched with the database: Actual-20.6 =/= Expected-20.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country DENMARK medians are not matched with the database: Actual-21.9 =/= Expected-20.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country GERMANY medians are not matched with the database: Actual-19.0 =/= Expected-18.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HONG KONG medians are not matched with the database: Actual-11.8 =/= Expected-11.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country HUNGARY medians are not matched with the database: Actual-23.1 =/= Expected-21.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ISRAEL medians are not matched with the database: Actual-25.2 =/= Expected-23.7"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country ITALY medians are not matched with the database: Actual-18.7 =/= Expected-18.5"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country NETHERLANDS medians are not matched with the database: Actual-16.3 =/= Expected-15.6"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country RUSSIA medians are not matched with the database: Actual-20.3 =/= Expected-20.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SINGAPORE medians are not matched with the database: Actual-18.0 =/= Expected-16.1"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SLOVAKIA medians are not matched with the database: Actual-20.5 =/= Expected-19.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country SPAIN medians are not matched with the database: Actual-25.4 =/= Expected-24.8"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UKRAINE medians are not matched with the database: Actual-24.0 =/= Expected-23.4"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="For the country UNITED KINGD... medians are not matched with the database: Actual-19.1 =/= Expected-18.9"><![CDATA[Error: Failed expectation
+    at databaseConnect.then.dbResult (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\M&B-FPI_To_LPI\FPI_To_LPI.spec.js:821:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

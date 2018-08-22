@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="3" tests="39" time="3840448">
+ <testsuite name="Page load" timestamp="2018-08-16T17:07:44" hostname="localhost" time="0" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Login Page" timestamp="2018-08-16T17:07:44" hostname="localhost" time="54.184" errors="0" tests="5" skipped="0" disabled="0" failures="1">
+  <testcase classname="Login Page" name="should display incorrect userid error message when entering incorrect userid" time="9.745" />
+  <testcase classname="Login Page" name="should display required field error message and not go to main menu when password entering as blank" time="9.604" />
+  <testcase classname="Login Page" name="should display required field error message and not go to main menu when username entering as blank" time="9.608" />
+  <testcase classname="Login Page" name="should display incorrect password error message when entering incorrect password" time="9.687">
+   <failure type="toBe" message="Error message is not displayed for incorrect password"><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\Login\LoginPage.spec.js:46:39)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Login Page" name="should go to main menu when entering correct password" time="15.538" />
+ </testsuite>
+ <testsuite name="Landing Page" timestamp="2018-08-16T17:08:38" hostname="localhost" time="136.872" errors="0" tests="7" skipped="0" disabled="0" failures="2">
+  <testcase classname="Landing Page" name="should have Option “About Pharmacuity” when login with any valid user" time="20.043">
+   <failure type="toBe" message="About Pharmacuity option is not present"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\landingPage\LandingPage.spec.js:32:53
+    at elementArrayFinder_.then (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32)
+    at ManagedPromise.invokeCallback_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Landing Page" name="should have Option “Metrics and Benchmarking” when login with any valid user" time="19.33" />
+  <testcase classname="Landing Page" name="should have Option “Site,PI &amp; Recuitment Optimization” when login with any valid user" time="19.46" />
+  <testcase classname="Landing Page" name="should have Option “Inovvative Protocol Design” when login with any valid user" time="19.543" />
+  <testcase classname="Landing Page" name="should have Option “Trial Forcasting” when login with any valid user" time="19.176" />
+  <testcase classname="Landing Page" name="the user should be able to logout and not able to access menu untill login again" time="21.175" />
+  <testcase classname="Landing Page" name="should display only 2 options “About Pharmacuity” and “Metrics and Benchmarking” when login with the Roche user" time="18.143">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\landingPage\LandingPage.spec.js:127:48
+    at elementArrayFinder_.then (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32)
+    at ManagedPromise.invokeCallback_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Metrics And Benchmarking Page" timestamp="2018-08-16T17:10:55" hostname="localhost" time="437.888" errors="0" tests="15" skipped="0" disabled="0" failures="0">
+  <testcase classname="Metrics And Benchmarking Page" name="should not display filter option" time="27.609" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display Dashboard option" time="34.463" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display PF-SA option" time="28.825" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display SA-FPI option" time="29.208" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display FPI-LPI option" time="29.33" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display PF-10THPI option" time="29.148" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display ERATE option" time="28.946" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display E BINS option" time="28.773" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display QUADA option" time="28.723" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display #S-100P option" time="28.58" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display P(P) option" time="29.141" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display P(C) option" time="28.642" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display P/SITE option" time="29.052" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display Export to excel option" time="29.215" />
+  <testcase classname="Metrics And Benchmarking Page" name="should display Help option" time="28.229" />
+ </testsuite>
+ <testsuite name="M&amp;B PF-SA Page" timestamp="2018-08-16T17:18:13" hostname="localhost" time="1027.242" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="M&amp;B PF-SA Page" name="should be matched Studies Box Plots value of Sponsor with the database value for the given filter options" time="177.76" />
+  <testcase classname="M&amp;B PF-SA Page" name="should be matched Average Box Plots value of Sponsor with the database value for the given filter options" time="167.679" />
+  <testcase classname="M&amp;B PF-SA Page" name="should be matched Median Box Plots value of Sponsor with the database value for the given filter options" time="166.125" />
+  <testcase classname="M&amp;B PF-SA Page" name="should be matched Studies Box Plots value of Competition with the database value for the given filter options" time="178.631" />
+  <testcase classname="M&amp;B PF-SA Page" name="should be matched Average Box Plots value of Competition with the database value for the given filter options" time="170.727" />
+  <testcase classname="M&amp;B PF-SA Page" name="should be matched Median Box Plots value of Competition with the database value for the given filter options" time="166.319" />
+ </testsuite>
+ <testsuite name="M&amp;B FPI-LPI Page" timestamp="2018-08-16T17:35:20" hostname="localhost" time="2184.262" errors="0" tests="6" skipped="0" disabled="0" failures="0">
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Studies Box Plots value of Sponsor with the database value for the given filter options" time="421.815" />
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Average Box Plots value of Sponsor with the database value for the given filter options" time="327.823" />
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Median Box Plots value of Sponsor with the database value for the given filter options" time="329.494" />
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Studies Box Plots value of Competition with the database value for the given filter options" time="433.387" />
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Average Box Plots value of Competition with the database value for the given filter options" time="335.069" />
+  <testcase classname="M&amp;B FPI-LPI Page" name="should be matched Median Box Plots value of Competition with the database value for the given filter options" time="336.674" />
+ </testsuite>
+</testsuites>

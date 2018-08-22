@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="11" tests="1" time="720356">
+ <testsuite name="Page load" timestamp="2018-08-17T15:08:29" hostname="localhost" time="0" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Trial Forecasting Page" timestamp="2018-08-17T15:08:29" hostname="localhost" time="720.356" errors="0" tests="1" skipped="0" disabled="0" failures="11">
+  <testcase classname="Trial Forecasting Page" name="Functional View PF-SA Graph: Actuals Vs Q1,Q3" time="720.319">
+   <failure type="toBe" message="Negative Deviation from Q1 = -34.48275862068966"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:186:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Negative Deviation from Q1 = -6.896551724137931"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:255:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Positive Deviation from Q3 = 2.380952380952381"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:173:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Positive Deviation from Q3 = 38.095238095238095"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:242:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Negative Deviation from Q1 = -9.523809523809524"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:186:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Negative Deviation from Q1 = -9.523809523809524"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:255:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Negative Deviation from Q1 = -44.827586206896555"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:186:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Positive Deviation from Q3 = 27.586206896551722"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:242:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Test is passed at 100% sites activated"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:161:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="toBe" message="Positive Deviation from Q3 = 1.9230769230769231"><![CDATA[Error: Failed expectation
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:242:33
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)]]>
+   </failure>
+   <failure type="exception" message="Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator by.repeater(&quot;radioItem in initValues&quot;)"><![CDATA[NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator by.repeater("radioItem in initValues")
+    at selenium_webdriver_1.promise.all.then (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\element.js:274:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:108:15
+    at ManagedPromise.invokeCallback_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous>
+    at pollCondition (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:291:15
+    at ManagedPromise.invokeCallback_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+From: Task: <anonymous>
+    at pollCondition (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:291:15
+    at ManagedPromise.invokeCallback_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+From: Task: Run it("Functional View PF-SA Graph: Actuals Vs Q1,Q3") in control flow
+    at UserContext.<anonymous> (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:37:3)
+    at addSpecsToSuite (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\DibaS\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (D:\PharmAcuity_AutomationTesting\pharmacuity-ui-automation\TF_FunctionalView\TrialForecasting_PF_To_SA.spec.js:12:1)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
