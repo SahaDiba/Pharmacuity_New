@@ -124,7 +124,10 @@ exports.config = {
 		// }
 		
 	},
-	 
+	 capabilities: {
+        'browserName': 'chrome',
+        
+    },
 	jasmineNodeOpts: {
 		// If true, print colors to the terminal.
 		showColors: true,
