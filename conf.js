@@ -6,7 +6,8 @@ var MailListener = require("mail-listener2");
 exports.config = {
 	framework: 'jasmine2',
 	seleniumjar: '.\node_modules\protractor\selenium\selenium-server-standalone-2.45.0.jar',
-	directConnect: true,
+	//directConnect: true,
+	chromeOnly: true,
 	//seleniumAddress: 'http://localhost:4444/wd/hub',
 	suites: {
 		//specs: ['./Home/HomePage.spec.js','./Login/LoginPage.spec.js','./landingPage/Landing.spec.js','./MetricsAndBenchmarking/MetricsAndBenchmarking.spec.js','./PF_To_SA/PF_To_SA.spec.js','./FSA_To_FPI/FSA_To_FPI.spec.js','./SA_To_FPI/SA_To_FPI.spec.js']
